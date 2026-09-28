@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asmr-spatial"
+version = "0.1.0"
+description = "Place audio at an arbitrary position around a virtual head and re-record it through a measured dummy-head HRTF."
+requires-python = ">=3.10"
+dependencies = ["numpy>=2.0", "scipy>=1.11", "soundfile>=0.12"]
+
+[project.scripts]
+asmr-spatial = "asmr_spatial.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

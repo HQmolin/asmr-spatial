@@ -1,0 +1,7 @@
+# Python >= 3.10
+numpy>=2.0
+scipy>=1.11
+soundfile>=0.12      # libsndfile >= 1.2 ships MP3 / FLAC / OGG codecs
+PyYAML>=6.0
+# Optional (analysis plots)
+matplotlib>=3.8

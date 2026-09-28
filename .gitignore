@@ -1,0 +1,20 @@
+# Virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Data and media (large, and licensed separately)
+# Run tools/fetch_data.py to fetch what is needed.
+data/
+examples/input/
+examples/output/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
